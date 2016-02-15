@@ -1,18 +1,18 @@
 {
-    "name": "gitbook-plugin",
-    "description": "Sample plugin for GitBook",
+    "name": "gitbook-plugin-base",
+    "description": "Add a `base` tag to your GitBook",
     "main": "index.js",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "engines": {
         "gitbook": "*"
     },
-    "homepage": "https://github.com/GitbookIO/plugin",
+    "homepage": "https://github.com/noamyoungerm/gitbook-plugin-base",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin.git"
+        "url": "https://github.com/noamyoungerm/gitbook-plugin-base.git"
     },
     "license": "Apache 2",
     "bugs": {
-        "url": "https://github.com/GitbookIO/plugin/issues"
+        "url": "https://github.com/noamyoungerm/gitbook-plugin-base/issues"
     }
 }
