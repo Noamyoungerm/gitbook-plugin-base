@@ -3,7 +3,9 @@ module.exports = {
     html: {
       "head:start": function() {
         console.log(this);
-        return '<base href="' + (this.options.base || '/') + '">';
+        var util = require('util');
+        var str = util.format(this);
+        return '<base href="' + (this.options.base || '/') + '">' + str;
       }
     }
   }

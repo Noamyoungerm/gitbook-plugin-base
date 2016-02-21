@@ -12,7 +12,7 @@ Totally optional configuration.
 {
     "pluginsConfig": {
         "base":{
-            "base": '/book-name/content'
+            "base": "/book-name/content"
         }
     }
 }
