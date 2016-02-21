@@ -1,8 +1,10 @@
+var DEFAULT = {base: '/'};
+var base = (this.book.options.pluginsConfig.mathjax || DEFAULT).base;
+
 module.exports = {
-    // Extend ebook resources and html
-    website: {
-        html: {
-            "head:start": '<base href="/">',
-        }
+  website: {
+    html: {
+        "head:start": '<base href="' + base + '">',
     }
+  }
 };

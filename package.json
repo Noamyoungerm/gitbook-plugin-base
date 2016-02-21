@@ -14,5 +14,14 @@
     "license": "Apache 2",
     "bugs": {
         "url": "https://github.com/noamyoungerm/gitbook-plugin-base/issues"
+    },
+    "gitbook": {
+        "properties": {
+            "base": {
+                "type": "string",
+                "title": "Base href",
+                "default": "/"
+            }
+        }
     }
 }
