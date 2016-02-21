@@ -1,27 +1,27 @@
 {
-    "name": "gitbook-plugin-base",
-    "description": "Add a `base` tag to your GitBook",
-    "main": "index.js",
-    "version": "1.1.3",
-    "engines": {
-        "gitbook": "*"
-    },
-    "homepage": "https://github.com/noamyoungerm/gitbook-plugin-base",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/noamyoungerm/gitbook-plugin-base.git"
-    },
-    "license": "Apache 2",
-    "bugs": {
-        "url": "https://github.com/noamyoungerm/gitbook-plugin-base/issues"
-    },
-    "gitbook": {
-        "properties": {
-            "base": {
-                "type": "string",
-                "title": "Base href",
-                "default": "/"
-            }
-        }
+  "name": "gitbook-plugin-base",
+  "description": "Add a `base` tag to your GitBook",
+  "main": "index.js",
+  "version": "1.1.4",
+  "engines": {
+    "gitbook": "*"
+  },
+  "homepage": "https://github.com/noamyoungerm/gitbook-plugin-base",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noamyoungerm/gitbook-plugin-base.git"
+  },
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/noamyoungerm/gitbook-plugin-base/issues"
+  },
+  "gitbook": {
+    "properties": {
+      "base": {
+        "type": "string",
+        "title": "Base href",
+        "default": "/"
+      }
     }
+  }
 }
