@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-base",
     "description": "Add a `base` tag to your GitBook",
     "main": "index.js",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "gitbook": "*"
     },
