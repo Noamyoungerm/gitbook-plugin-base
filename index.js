@@ -1,7 +1,9 @@
 module.exports = {
   website: {
     html: {
-        "head:start": '<base href="' + this.options.base || '/' + '">',
+      "head:start": function() {
+        return '<base href="' + this.options.base || '/' + '">';
+      }
     }
   }
 };
